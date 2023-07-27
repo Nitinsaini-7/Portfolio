@@ -1,0 +1,712 @@
+body{
+    background-color: black;
+    font-family: 'Concert One', cursive;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    
+}
+
+#home{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-position: center;
+    background-size: cover;
+    height: 50vw;
+    width: 100vw;
+    background-image: url(img..jpg);     
+    padding: 1px;  
+}
+
+nav h2{
+    margin:10px;
+}
+
+.portfolio{
+    color: white;
+    margin-left:60px;
+    font-size:30px;
+}
+
+.portfolio span{
+    color: aqua;
+}
+
+nav{
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 500px;
+    padding-right: 100px;
+    margin:-60px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 40px 1px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: aqua;  
+    font-size:18px;
+}
+
+nav ul li a:hover{
+    color: white;
+}
+
+.menu{
+    display: none;
+}
+
+.info{
+    padding-top: 200px;
+    padding-left: 60px;
+    font-size: 20px;
+}
+
+.info h1{
+    color: white;   
+}
+
+.typing{
+    color: aqua;
+}
+
+.detail{
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-left: 20px;
+}
+
+.more{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding:10px;
+    padding-left:40px;
+    padding-right:40px;
+    margin:50px;
+    border-inline: none;
+    border: none;
+    box-shadow:1px 1px 4px aqua,-1px -1px 4px aqua;;
+    cursor:pointer;
+}
+
+.more:hover{
+    color: black;
+    background-color: aqua;
+}
+
+nav .fas{
+    display: none;
+}
+
+#about{
+    padding: 0;
+    margin: 0;
+}
+
+.about_heading{
+    margin:70px;
+    padding-bottom: 0px;
+    color: white;
+}
+
+.about_heading span{
+    color: aqua;
+}
+
+.intro, .edu{
+    color: aqua;
+    margin: 20px;
+    border-bottom-width: 3px solid ;
+    padding-bottom: 2px;
+    border-bottom-style: solid;
+    width:fit-content
+}
+
+.intro_para{
+    color: white;
+    margin: 20px;
+}
+
+.table {
+    color: white;
+}
+
+.table th{
+    color: aqua;
+}
+
+.table td{
+    padding:10px 20px 10px;
+    padding-top:none;
+} 
+
+.data{
+    text-align: center;
+}
+
+#services{
+    margin: 0;
+    padding: 0;
+}
+
+#services{
+    padding: 30px 0px;
+}
+
+.services{
+    color: white;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 20px;
+    padding: 20px 20px;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px 2px aqua;
+}
+
+.card .icon{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.card h3{
+    font-size: 14px;
+    color: aqua;
+    margin-bottom: 20px;
+}
+
+.card p{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.title{
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+.title span{
+    color: aqua;
+}
+
+.button{
+    color: skyblue;
+}
+
+#skills
+.myskills{
+    color: white;
+}
+.paragraph{
+    margin:20px;
+    color: white;
+}
+.myskills span{
+    color: aqua;
+}
+.skills{
+  width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px auto;
+    text-align: center;
+}
+.skill_1 img{
+  
+    width:300px;
+  }
+  .skill_2 img{
+    padding: 15px;
+    width:100px;
+  }
+  .skill_3 img{
+    padding: 10px;
+    width:100px;
+  }
+  .skill_1, .skill_2, .skill_3{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3px 200px;
+    padding: 5px;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow:0 0 10px 2px aqua;
+  }
+  .skills h3{
+    color: aqua;
+  }
+
+#contact
+.contact_container{
+  padding:50px;
+    display: flex;
+    justify-content: center;
+}
+.contact_head{
+    color: white;
+}
+.contact_head span{
+    color: aqua;
+}
+
+.contact{
+    width: 60%;
+    background: black;
+    border-radius: 10px;
+    padding: 20px 60px 30px 30px;
+    box-shadow: 0px 0px 10px 2px aqua;
+  }
+  .contact i{
+    color: black;
+  }
+  .contact .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .contact .content .left-side{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    position: relative;
+  }
+  .content .left-side::before{
+    content: '';
+    position: absolute;
+    height: 70%;
+    width: 2px;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #afafb6;
+  }
+  .content .left-side .details{
+    margin: 10px;
+    text-align: center;
+  }
+  .content .left-side .details i{
+    font-size: 30px;
+    color: aqua;
+    margin-bottom: 10px;
+  }
+  .content .left-side .details .topic{
+    font-size: 18px;
+    font-weight: 500;
+    color:white;
+  }
+  .content .left-side .details .text-one,
+  .content .left-side .details .text-two{
+    font-size: 14px;
+    color: white;
+  }
+  .contact .content .right-side{
+    width: 75%;
+    margin-left: 75px;
+  }
+  .content .right-side .topic-text{
+    font-size: 23px;
+    font-weight: 500;
+    color: aqua;
+  }
+  .right-side .input-box{
+    height: 35px;
+    width: 100%;
+    margin: 10px 0;
+  }
+  .right-side .input-box input,
+  .right-side .input-box textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background: white;
+    border-radius: 0px;
+    padding: 0 15px;
+    resize: none;
+  }
+  .right-side .message-box{
+    min-height: 110px;
+  }
+  .right-side .input-box textarea{
+    padding-top: 6px;
+  }
+  .right-side .button{
+    display: inline-block;
+    margin-top: 12px;
+  }
+  .right-side .button input[type="submit"]{
+    color: white;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 6px;
+    background: rgb(2, 162, 255);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .button input[type="submit"]:hover{
+    background: white;
+    color: rgb(2, 162, 255);
+  }
+ 
+#social
+.social_head{
+    color: white;
+}
+.social_head span{
+    color: aqua;
+}
+.social_container{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.social a{
+    color:aqua;
+    font-size:30px;
+    padding:50px;
+}
+
+@media only screen and (max-width:600px){
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    
+    html{
+        scroll-behavior: smooth;
+        scroll-padding: 50px;
+    }
+    #home
+    .container{
+        background-image: url(nitin.jpg);
+        width:100vw;
+        height:130vw;
+        box-shadow:0px 0px 50px 40px black inset;
+      
+    }
+    .portfolio{
+        margin-left:10px;
+    }
+  .info_container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:0px;
+  }
+
+    .info{
+        padding-top: 450px;
+        padding-left: 0px;
+        margin-top:50px;
+    }
+    .info h1{
+        font-size: 30px;
+    }
+    
+    nav ul{
+        margin:0px;
+        right:-200px;
+        background-color: aqua;
+        position: fixed;
+        top: 0;
+        width: 100px;
+        height: 50vh;
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-right: 65px;
+        z-index: 2;
+        transition: right 0.8s;
+    }
+
+    .navigation li a{
+        color: black;
+        
+    }
+   
+    nav .fas{
+        display: block;
+        font-size: 25px;
+        margin:-110px;
+        margin-top:5px;
+        color: aqua;
+        position:fixed;
+    }
+
+    nav ul .fas{
+        position: absolute;
+        top: 0px;
+        left: 120px;
+        cursor: pointer;
+        color: black;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 20px 5px;
+        height:40px;
+    }
+    
+    
+    .detail{
+      padding:0px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+
+
+    .more{
+        padding:10px;
+        padding-left:40px;
+        padding-right:40px;
+       }
+
+    #about
+    .intro_para{
+        text-align:justify;
+        align-items:center;
+    }
+    .about{
+        margin-top:500px;
+    }
+    .table{
+        
+        font-size:10px;
+    }
+    .table th{
+        padding: 1px -1px -1px;
+    }
+  #skills
+  .paragraph{
+    text-align:justify;
+    align-items:center;
+  }
+  .skills{
+        display: flex;
+        flex-direction:column;
+    }
+  .skill_1, .skill_2, .skill_3{
+    width:300px
+  }
+
+    #contact
+    .contact{
+        margin: 40px 0;
+        height: 100%;
+      }
+      .contact .content{
+        flex-direction: column-reverse;
+      }
+     .contact .content .left-side{
+       width: 150%;
+       flex-direction: row;
+       margin-top: 40px;
+       justify-content: center;
+       flex-wrap: wrap;
+     }
+     .contact .content .left-side::before{
+       display: none;
+     }
+     .contact .content .right-side{
+       width: 100%;
+       margin-left: 0;
+     }
+    #social
+    .social_container{
+        padding-right:0px;
+        display: flex;
+        justify-content: center;
+      }
+      .social a{
+        padding-left:25px;
+      }
+
+    .services{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:820px) and (min-width:600px){
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    #home
+        .container{
+        background-image: url(nitin.jpg);
+        width: 100vw;
+        height: 120vw;
+          box-shadow:0px 0px 50px 40px black inset;
+    }
+
+    .portfolio{
+        margin-left:10px;
+    }
+   .info_container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:0px;
+  }
+
+    .info{
+        padding-top: 900px;
+        padding-bottom:100px;
+        padding-left: 0px;
+        margin:10px;
+        margin-top:90px;
+    }
+    .info h1{
+        font-size: 30px;
+    }
+    
+    nav ul{
+        margin:0px;
+        right:-200px;
+        background-color: aqua;
+        position: fixed;
+        top: 0;
+        width: 90px;
+        height: 90vh;
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-right: 65px;
+        z-index: 2;
+        transition: right 0.8s;
+    }
+
+    .navigation li a{
+        color: black;
+        
+    }
+   
+    nav .fas{
+        display: block;
+        font-size: 25px;
+        margin:250px;
+        margin-top:5px;
+        color: aqua;
+        position:fixed;
+    }
+
+    nav ul .fas{
+        position: absolute;
+        top: 0px;
+        left: -240px;
+        cursor: pointer;
+        color: black;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 20px 5px;
+        height:40px;
+    }
+
+
+    .more{
+        padding:10px;
+        padding-left:40px;
+        padding-right:40px;
+       }
+   .detail{
+      padding:0px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+ 
+    #about
+    .about{
+        margin-top:500px;
+    }
+    .table{
+        
+        font-size:10px;
+    }
+    .table th{
+        padding: 1px -1px -1px;
+    }
+  
+    .location{
+        margin:10px;
+    }
+
+    .location .location_icon{
+        margin: 0px;
+    }
+
+    .social a{
+        padding-left:50px;
+        margin-top:-100px;
+    }
+
+    .social{
+        margin:10px -380px 10px;
+    }
+
+    .services{
+        display: flex;
+        flex-direction: column;
+    }
+    #social
+    .social_container{
+        padding-right:0px;
+        display: flex;
+        justify-content: center;
+      }
+      .social a{
+        padding-left:25px;
+      }
+      .skills{
+        display: flex;
+        flex-direction:column;
+      }
+      .skill_1, .skill_2, .skill_3{
+        width:350px
+      }
+}

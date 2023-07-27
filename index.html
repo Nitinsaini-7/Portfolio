@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@300&family=Carter+One&family=Chela+One&family=Concert+One&family=Edu+SA+Beginner:wght@700&family=Goldman:wght@700&family=Gorditas:wght@400;700&display=swap');
+      </style>
+</head>
+<body>
+    <div id="home" class="home">
+        <div class="container">
+            <div class="sidebar">
+                <h2 class="portfolio">PORT<span>FOLIO</span></h2>
+                    <nav>
+                        <ul id="sidemenu">
+                            <div class="navigation">
+                                <li><a href="#home">HOME</a></li>
+                                <li><a href="#about">ABOUT</a></li>
+                                <li><a href="#services">SERVICES</a></li>
+                                <li><a href="#skills">SKILLS</a></li>
+                                <li><a href="#contact">CONTACT</a></li>
+                            </div>
+                            <i class="fas fa-times" onclick="closemenu()"></i>
+                        </ul>
+                        <i class="fas fa-bars" onclick="openmenu()"></i>
+                    </nav>
+            </div>
+            <div class="info_container">
+                <div class="info">
+                    <h1>Hello,</h1>
+                    <h1>My name is <span style="color: aqua;">Nitin Saini</span></h1>
+                     <h1>I'm a <span class="typing"></span></h1>
+                </div>
+            </div>
+                <div class="detail">
+                    <a href="https://drive.google.com/file/d/1KTm5-L1iKeqwVejhQnotXYnlHIBcGVG8/view?usp=drivesdk"><input class="more" type="button" value="Download Resume" ></a>
+                </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="about">
+            <center class="about_heading"><h2>- About <span>Me -</span></h2></center>
+                    <h4 class="intro">Introduction</h4>
+                    <div class="intro_para">
+                        <p>
+                            Hey, I am NITIN SAINI. I belongs to Hapur and I am currently pursuing B.Tech in Computer 
+                            Science & Engineering from Sanskar College of Engineering & Technology,Ghaziabad.
+                        </p>
+                        <p>
+                            Detail-oriented and ambitious engineering student with a passion for obtaining accurate results and
+                             working on a team. Seeking an entry-level position in the engineering industry to pursue a career as
+                              a Chemical Engineer and improve my skill set.
+                        <p>
+                            Passsionate and enthusiastic 4th year student with great coding skills in C++ and Python. Ability to create innovative, creative, & interactive web designs to
+                            boost customer engagement. Sound knowledge in HTML, CSS &
+                            Javascript.
+                        </p>
+                        <p>
+                            I am fresher and I am looking for a job in the field of Web Development where I can give my 
+                            100% best to arise the level of company
+                        </p>
+    
+                        <p>Thank You!</p>
+                    </div>
+
+                <h4 class="edu">Education</h4>
+                <table class="table">
+                    <tr>
+                        <th>Course/Class</th>
+                        <th>University/Board</th>
+                        <th>Marks</th>
+                        <th>Year of Passing</th>
+                    </tr>
+        
+                    <tr class="data">
+                        <td>B.tech(CSE)</td>
+                        <td>AKTU</td>
+                        <td>72%</td>
+                        <td>2024</td>
+                    </tr>
+        
+                    <tr class="data">
+                        <td>12th</td>
+                        <td>UP Board</td>
+                        <td>73.6%</td>
+                        <td>2019</td>
+                    </tr>
+        
+                    <tr class="data">
+                        <td>10th</td>
+                        <td>UP Board</td>
+                        <td>82.6%</td>
+                        <td>2017</td>
+                    </tr>
+                </table>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="section">
+            <div class="title">
+                <center> <h2>- Our <span>Services -</span></h2></center>
+            </div>
+    
+            <div class="services">
+                <div class="card">
+                    <div class="icon">
+                        <i class="fa-solid fa-calendar-days"></i>
+                    </div>
+                    <h3>Planning</h3>
+                    <p>Planning is the process of thinking regarding the activities required to achieve a desired 
+                    goal. Planning is based on foresight, the fundamental capacity for mental time travel.</p>
+                    <a href="https://en.wikipedia.org/wiki/Planning" class="button">Read More</a>
+                </div>
+    
+                <div class="card">
+                    <div class="icon">
+                        <i class="fa-solid fa-crop-simple"></i>    
+                    </div>
+                    <h3>Web Designing</h3>
+                    <p>Web design encompasses many different skills and disciplines in the production and maintenance
+                    of websites. The different areas of web design include web graphic design.</p>
+                    <a href="https://en.wikipedia.org/wiki/Web_design" class="button">Read More</a>
+                </div>
+    
+                <div class="card">
+                    <div class="icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Web development is the work involved in developing a website for the intranet. Webdevelopment can range from developing a simple static page of plain text to complex.</p>
+                    <a href="https://en.wikipedia.org/wiki/Web_development" class="button">Read More</a>
+                </div>
+                
+                <div class="card">
+                    <div class="icon">
+                        <i class="fa-sharp fa-solid fa-gear"></i>
+                    </div>
+                    <h3>Software Development</h3>
+                    <p>Software development is the process of conceiving, specifying, designing, programming, documenting,
+                    testing, and bug fixing, frameworks, or other software components.</p>
+                    <a href="https://en.wikipedia.org/wiki/Software_development" class="button">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="skills">
+        <div class="container_skills">
+            <center><h2 class="myskills">- My <span>Skills -</span></h2></center>
+            
+            <div class="paragraph">
+                <p>
+                    I have great coding skills in C++ and Python. A passionate professional with great
+                    interpersonal and communication skills.
+                </p>
+                <p>
+                    Ability to create innovative, creative, & interactive web designs to
+                    boost customer engagement. Sound knowledge in HTML, CSS &
+                    Javascript.
+                </p>
+            </div>
+
+            <div class="skills">
+                <div class="skill_1">
+                    <div class="skill_img_1">
+                        <h3 class="skill_head">Web Development</h3>
+                        <img src="web.png" alt="">
+                    </div>
+                </div>
+                <br>
+                <div class="skill_2">
+                    <div class="skill_img_2">
+                        <h3 class="skill_head">Programming Languages</h3>
+                        <img src="cpp.png" alt="">
+                        <img src="python.png" alt="">
+                    </div>
+                </div>
+                <br>
+                <div class="skill_3">
+                    <div class="skill_img_3">
+                        <h3 class="skill_head">Tools</h3>
+                        <img src="vs.png" alt="">
+                        <img src="git.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>    
+
+<div id="contact">
+    <center> <h2 class="contact_head">- Contact <span>Us -</span></h2></center>
+    <div class="contact_container">
+        <div class="contact">
+            <div class="content">
+              <div class="left-side">
+                <div class="address details">
+                  <a href="https://goo.gl/maps/tiwQtnwg1c6iqKiH6"><i class="fa-solid fa-location-dot fa-bounce"></i></a> 
+                  <div class="topic">Address</div>
+                  <div class="text-one">Hapur, Uttar Pradesh,</div>
+                  <div class="text-two">India - 245101</div>
+                </div>
+                <div class="phone details">
+                  <a href="tel: 7452863255"> <i class="fa-solid fa-phone fa-shake"></i></a>
+                  <div class="topic">Phone</div>
+                  <div class="text-one">+917452863255</div>
+                </div>
+
+                <div class="email details">
+                  <a href="mailto: saini00nitin@gmail.com?"><i class="fa-solid fa-envelope fa-beat"></i></a>
+                  <div class="topic">Email</div>
+                  <div class="text-one">saini00nitin@gmail.com</div>
+                </div>
+              </div>
+
+              <div class="right-side">
+                <div class="topic-text">Send Message</div>
+              <form method="post" name="form" action="https://script.google.com/macros/s/AKfycbw3oV7OysiT_O0h5EUqJMHeTRv25wprotSzd-CxYFtZInavV5UIX3b8-P0srGCrm6w-/exec">
+                <div class="input-box">
+                  <input type="text" placeholder="User Name" name="Name" required>
+                </div>
+                <div class="input-box">
+                  <input type="text" placeholder="User Email" name="Email" required>
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Subject" name="Subject" required>
+                  </div>
+                <div class="input-box message-box">
+                  <textarea cols="30" rows="10" placeholder="Message" name="Message" required></textarea>
+                </div>
+                <div class="button">
+                  <input type="submit" value="Submit" >
+                </div>
+              </form>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div> 
+<br><br>
+    <div id="social">
+        <center> <h2 class="social_head">- Social <span>Links -</span></h2></center>
+        <div class="social_container">
+            <div class="social">
+                <a href="https://www.linkedin.com/in/nitin-saini-64b454237/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Nitinsaini-7"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/nitin.saini.07/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+                <center><h2 class="thanks" style="color: aqua;">Thank You !</h2></center>
+</div>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+   <script>
+    var typingEffect=new Typed(".typing",{
+        strings:["Coder !","Developer !","Designer !"],
+        loop:true,
+        typeSpeed:100,
+        backSpeed:100,
+        backDelay:1500
+    })
+   </script>
+
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw3oV7OysiT_O0h5EUqJMHeTRv25wprotSzd-CxYFtZInavV5UIX3b8-P0srGCrm6w-/exec'
+    const form = document.forms['form']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => alert("Thank you! your form is submitted successfully." ))
+        .then(() => {  window.location.reload(); })
+        .catch(error => console.error('Error!, Something went wrong', error.message))
+    })
+  </script>
+    
+
+</body>
+</html>
