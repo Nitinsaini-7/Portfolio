@@ -76,7 +76,7 @@ const Hero = () => {
           <br />
 
           <div className="lg:gap-0 md:gap-0 gap-5 mt-2 grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 lg:w-96 w-full">
-            <Link href="" className="mx-5 lg:mx-auto">
+            <Link href="https://drive.google.com/file/d/1oqarfhlcuPzMN-gURLSaD057GOCKcnCU/view?usp=drivesdk" className="mx-5 lg:mx-auto">
               <Button className="w-full bg-orange-400 lg:px-12  hover:bg-transparent hover:text-orange-400 duration-300 hover:duration-300 hover:border-orange-400 hover:border">
                 Resume <FontAwesomeIcon icon={faDownload} className="ml-2" />
               </Button>
