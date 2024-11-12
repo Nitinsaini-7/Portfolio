@@ -9,6 +9,16 @@ import React, { useState } from "react";
 const Project = () => {
   const projectData = [
     { 
+      category : "App Development",
+      image: "/epicwalls.png",
+      name: "EpicWalls",
+      description: "This app provides a clean and modern wallpapers for your device.Shows a full preview of the selected wallpaper, along with options to download, share the wallpaper",
+      skills: ["Expo","React Native","Javascript","Node.js","API's"],
+      gitHubLink: "https://github.com/Nitinsaini-7/EpicWalls",
+      liveLink: "https://expo.dev/accounts/nitin_saini/projects/EpicWalls/builds/2e77bde8-6a6b-45f0-b648-9254e8322074",
+    },
+
+    { 
       category : "Web Development",
       image: "/ai-intellimocker.png",
       name: "AI IntelliMocker",
@@ -59,17 +69,17 @@ const Project = () => {
   return (
     <div>
       <div data-aos="fade-down" className="flex items-center my-10 lg:mx-96">
-        <div class="border-t border-2 border-orange-400 flex-grow"></div>
-        <h1 class="px-3 text-black font-medium text-4xl">Projects</h1>
-        <div class="border-t border-2 border-orange-400 flex-grow"></div>
+        <div className="border-t border-2 border-orange-400 flex-grow"></div>
+        <h1 className="px-3 text-black font-medium text-4xl">Projects</h1>
+        <div className="border-t border-2 border-orange-400 flex-grow"></div>
       </div>
 
      <div className="flex items-center justify-center mb-10">
      <div className="  rounded-full bg-orange-400">
       <div className="flex gap-2 items-center justify-center p-2">
         {
-          menuItems.map(val => (
-            <Button className="bg-black text-white hover:bg-white hover:text-black duration-300 rounded-full" onClick ={()=>filterItems(val)}>
+          menuItems.map((val, index) => (
+            <Button key={index} className="bg-black text-white hover:bg-white hover:text-black duration-300 rounded-full" onClick ={()=>filterItems(val)}>
               {val}
             </Button>
           ))
@@ -82,11 +92,11 @@ const Project = () => {
 
       <div className="flex flex-wrap justify-center gap-10">
         {items.map((item, index) => (
-          <div data-aos="fade-up" className="overflow-hidden shadow-lg transition duration-500 ease-in-out transform hover:scale-105 hover:shadow-2xl rounded-md h-fit w-96 mx-2 lg:w-90 cursor-pointer">
+          <div data-aos="fade-up" key={index} className="overflow-hidden shadow-lg transition duration-500 ease-in-out transform hover:scale-105 hover:shadow-2xl rounded-md h-fit w-96 mx-2 lg:w-90 cursor-pointer">
             <img
               alt={`Project ${index+1}`}
               src={item.image}
-              className=" w-full object-cover"
+              className=" w-full object-cover border shadow-lg rounded-md"
             />
             <div className="bg-white w-full p-4">
               <p key={index} className="text-black text-2xl font-semibold">
@@ -100,9 +110,8 @@ const Project = () => {
 
               <div className="flex flex-wrap justify-starts items-center border-b-2 h-20 text-xs text-white font-medium">
                 {item.skills.map((skill, index) => (
-                  <div className="py-3">
+                  <div key={index} className="py-3">
                     <span
-                      key={index}
                       className="m-1 px-2 py-1 rounded-2xl text-slate-500 bg-slate-100 border border-slate-500"
                     >
                       {skill}

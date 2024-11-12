@@ -20,9 +20,9 @@ const About = () => {
   return (
     <div>
       <div data-aos="fade-down" className="flex items-center my-10 lg:mx-96">
-        <div class="border-t border-2 border-orange-400 flex-grow"></div>
-        <h1 class="px-3 text-black font-medium text-4xl">About Me</h1>
-        <div class="border-t border-2 border-orange-400 flex-grow"></div>
+        <div className="border-t border-2 border-orange-400 flex-grow"></div>
+        <h1 className="px-3 text-black font-medium text-4xl">About Me</h1>
+        <div className="border-t border-2 border-orange-400 flex-grow"></div>
       </div>
 
       <Introduction />

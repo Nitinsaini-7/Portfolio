@@ -84,14 +84,14 @@ const Skills = () => {
   return (
     <div>
       <div data-aos="fade-down" className="flex items-center my-10 lg:mx-96">
-        <div class="border-t border-2 border-orange-500 flex-grow "></div>
-        <h1 class="px-3 text-black font-medium text-4xl">Skills</h1>
-        <div class="border-t border-2 border-orange-500 flex-grow "></div>
+        <div className="border-t border-2 border-orange-500 flex-grow "></div>
+        <h1 className="px-3 text-black font-medium text-4xl">Skills</h1>
+        <div className="border-t border-2 border-orange-500 flex-grow "></div>
       </div>
 
       <div className="flex flex-wrap justify-center lg:gap-24 gap-12">
-        {skillsData.map((item) => (
-          <div className="transform transition duration-300 hover:scale-110">
+        {skillsData.map((item, index) => (
+          <div key={index} className="transform transition duration-300 hover:scale-110">
             <div
               data-aos="fade-up"
               className="w-24 h-24 bg-white flex items-center justify-center rounded-full cursor-pointer skill-box"

@@ -14,26 +14,22 @@ const Hero = () => {
   }, []);
 
   return (
-    <div class="relative h-screen w-full">
+    <div className="relative h-screen w-full">
       <img
         src="https://images.unsplash.com/photo-1522252234503-e356532cafd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw2fHxjb2RlfGVufDB8MHx8fDE2OTQwOTg0MTZ8MA&ixlib=rb-4.0.3&q=80&w=1080"
         alt="Background Image"
-        class="object-cover object-center w-full h-full"
+        className="object-cover object-center w-full h-full"
       />
-      <img
-        src=""
-        alt="Background Image"
-        class="absolute inset-0 w-full h-full object-cover filter blur-sm"
-      />
-      <div class="absolute inset-0 bg-black bg-opacity-50"></div>
-      <div class="absolute inset-0 flex flex-col items-center justify-center">
+      
+      <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+      <div className="absolute inset-0 flex flex-col items-center justify-center">
         <div data-aos="fade-down" className="blob">
           <img src="/pic.png" alt="" />
         </div>
 
         <div data-aos="fade-up" className="grid grid-cols-1 place-items-center">
-          <p class="text-4xl text-white font-semibold mt-2">Hello,</p>
-          <p class="lg:text-4xl text-4xl text-white my-2 font-semibold">
+          <p className="text-4xl text-white font-semibold mt-2">Hello,</p>
+          <p className="lg:text-4xl text-4xl text-white my-2 font-semibold">
             My Name is <span className="text-orange-400">Nitin Saini</span>
           </p>
           <p className="text-orange-400 text-4xl font-semibold">

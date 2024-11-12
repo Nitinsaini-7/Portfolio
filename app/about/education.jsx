@@ -33,20 +33,20 @@ const Education = () => {
           Education
         </h3>
       </div>
-      <div class="flex flex-wrap justify-center gap-10">
-        {educationData.map((item) => (
-          <div data-aos="fade-up" class="w-96 shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] p-5 rounded-md mx-2 cursor-pointer group hover:bg-orange-400 duration-500 hover:duration-500 ease-in-out">
+      <div className="flex flex-wrap justify-center gap-10">
+        {educationData.map((item, index) => (
+          <div data-aos="fade-up" key={index} className="w-96 shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] p-5 rounded-md mx-2 cursor-pointer group hover:bg-orange-400 duration-500 hover:duration-500 ease-in-out">
             <img
               src={item.image}
               alt=""
               className="rounded-t-[0.625rem] rounded-b-none w-10"
             />
             <div>
-              <h3 class="font-medium text-xl text-black group-hover:text-white">
+              <h3 className="font-medium text-xl text-black group-hover:text-white">
                 {item.name}
               </h3>
-              <p class="mt-1 text-gray-700 group-hover:text-white">{item.education}</p>
-              <p class="mt-1 text-orange-400 group-hover:text-white">{item.year}</p>
+              <p className="mt-1 text-gray-700 group-hover:text-white">{item.education}</p>
+              <p className="mt-1 text-orange-400 group-hover:text-white">{item.year}</p>
             </div>
           </div>
         ))}
