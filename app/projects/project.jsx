@@ -9,6 +9,16 @@ import React, { useState } from "react";
 const Project = () => {
   const projectData = [
     { 
+      category : "Web Development",
+      image: "/trend-wave.png",
+      name: "TrendWave (E-commerce)",
+      description: "Trend Wave is a cutting-edge clothing e-commerce platform that blends style, quality, and affordability. With user-friendly navigation, seamless checkout, and fast shipping.",
+      skills: ["React.js","Javascript","Tailwind CSS","Express.js","Node.js","MongoDB"],
+      gitHubLink: "https://github.com/Nitinsaini-7/TrendWave",
+      liveLink: "https://trend-wave-frontend.vercel.app/",
+    },
+
+    { 
       category : "App Development",
       image: "/epicwalls.png",
       name: "EpicWalls",
@@ -23,19 +33,9 @@ const Project = () => {
       image: "/ai-intellimocker.png",
       name: "AI IntelliMocker",
       description: "It is a AI-based mock interview platforms use artificial intelligence (AI) to help job seekers prepare for interviews by simulating realistic interview experiences.",
-      skills: ["Next.js","React","Javascript","Tailwind CSS","CSS","Node.js","Gemini AI"],
+      skills: ["Next.js","React.js","Javascript","Tailwind CSS","CSS","Node.js","Gemini AI"],
       gitHubLink: "https://github.com/Nitinsaini-7/AI-IntelliMocker",
       liveLink: "https://ai-intellimocker.vercel.app/",
-    },
-
-    {
-      image: "/gyan-ki-kaksha.png",
-      category : "Web Development",
-      name: "Gyan Ki Kaksha",
-      description: "It is a web application which have set of interactive services that provide educational content and resources with pre-recorded lessons.",
-      skills: ["React", "Javascript", "CSS","Tailwind CSS", "Node.js"],
-      gitHubLink: "https://github.com/Nitinsaini-7/Gyan-Ki-Kaksha",
-      liveLink: "https://gyan-ki-kaksha.netlify.app/",
     },
 
     {
